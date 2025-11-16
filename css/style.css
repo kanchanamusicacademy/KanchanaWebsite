@@ -120,10 +120,21 @@ a, a:hover {
     margin-top : 65px;
 }
 
-.navbar-wrapper .inner-container {
-    left     : 242px;
-    position : relative;
+@media (min-width: 1024px) {
+    .navbar-wrapper .inner-container {
+        left     : 100px;
+        position : relative;
+    }
 }
+
+@media (max-width: 900px) {
+    .navbar-wrapper .inner-container {
+        left: 240px;       
+        position: relative;
+    }
+}
+
+
 
 .navbar-wrapper .container {
     left     : -190px;
@@ -255,11 +266,11 @@ a, a:hover {
 }
 
 #menu > ul > li.active.about > a, #menu > ul > li.about:hover, #menu > ul > li.about > a:hover:after {
-    background-color : #2e3947;
+    background-color : #0b6ae3;
 }
 
 #menu > ul > li.active.team > a, #menu > ul > li.team:hover, #menu > ul > li.team > a:hover:after {
-    background-color : #00bf73;
+    background-color : #d21459;
 }
 
 #menu > ul > li.active.client > a, #menu > ul > li.client:hover, #menu > ul > li.client > a:hover:after {
@@ -458,6 +469,10 @@ a, a:hover {
     overflow   : hidden;
 }
 
+#homeVideo {
+    margin-top: 135px;
+}
+
 #video_pattern {
     background-image : url(../images/pattern.png);
     position         : fixed;
@@ -469,6 +484,7 @@ a, a:hover {
     width            : 100%;
     height           : 100%;
     z-index          : -1;
+    background: #4b4545;
 }
 
 .video-caption {
@@ -771,11 +787,11 @@ a, a:hover {
 }
 
 #aboutus {
-    background          : -webkit-linear-gradient(left, #2e3947 0%, #2e3947 100%), -webkit-linear-gradient(left, #2e3947 0%, #2e3947 100%);
-    background          : -moz-linear-gradient(left, #2e3947 0%, #2e3947 100%), -moz-linear-gradient(left, #2e3947 0%, #2e3947 100%);
-    background          : -o-linear-gradient(left, #2e3947 0%, #2e3947 100%), -o-linear-gradient(left, #2e3947 0%, #2e3947 100%);
-    background          : -ms-linear-gradient(left, #2e3947 0%, #2e3947 100%), -ms-linear-gradient(left, #2e3947 0%, #2e3947 100%);
-    background          : linear-gradient(left, #2e3947 0%, #2e3947 100%), linear-gradient(left, #2e3947 0%, #2e3947 100%); /* Chrome10+,Safari5.1+ */
+    background          : -webkit-linear-gradient(left, #0b6ae3 0%, #2e3845 100%), -webkit-linear-gradient(left, #2e3947 0%, #2e3947 100%);
+    background          : -moz-linear-gradient(left, #0b6ae3 0%, #2e3845 100%), -moz-linear-gradient(left, #2e3947 0%, #2e3947 100%);
+    background          : -o-linear-gradient(left, #0b6ae3 0%, #2e3845 100%), -o-linear-gradient(left, #2e3947 0%, #2e3947 100%);
+    background          : -ms-linear-gradient(left, #0b6ae3 0%, #2e3845 100%), -ms-linear-gradient(left, #2e3947 0%, #2e3947 100%);
+    background          : linear-gradient(left, #0b6ae3 0%, #2e3845 100%), linear-gradient(left, #2e3947 0%, #2e3947 100%); /* Chrome10+,Safari5.1+ */
     background-position : -100px 100%, 100% 100px;
     background-repeat   : no-repeat;
 }
@@ -785,19 +801,20 @@ a, a:hover {
 }
 
 #team-wrapper:before {
-    border-right-color : #328e69;
+    border-right-color : #9f296f;
 }
 
 #team {
-    background          : -webkit-linear-gradient(left, #09422b 0%, #167f56 100%), -webkit-linear-gradient(left, #083c27 0%, #0d5237 100%);
-    background          : -moz-linear-gradient(left, #00bf73 0%, #00bf73 100%), -moz-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : -o-linear-gradient(left, #00bf73 0%, #00bf73 100%), -o-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : -ms-linear-gradient(left, #00bf73 0%, #00bf73 100%), -ms-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : linear-gradient(left, #00bf73 0%, #00bf73 100%), linear-gradient(left, #00bf73 0%, #00bf73 100%); /* Chrome10+,Safari5.1+ */
+    background          : -webkit-linear-gradient(left, #420926 0%, #d21459 100%), -webkit-linear-gradient(left, #470b1c 0%, #7b0087 100%);
+    background          : -moz-linear-gradient(left, #420926 0%, #d21459 100%), -moz-linear-gradient(left, #470b1c 0%, #7b0087 100%);
+    background          : -o-linear-gradient(left, #420926 0%, #d21459 100%), -o-linear-gradient(left, #470b1c 0%, #7b0087 100%);
+    background          : -ms-linear-gradient(left, #420926 0%, #d21459 100%), -ms-linear-gradient(left, #470b1c 0%, #7b0087 100%);
+    background          : linear-gradient(left, #420926 0%, #d21459 100%), linear-gradient(left, #470b1c 0%, #7b0087 100%); 
     background-position : 100px 100%, 100% 100px;
     background-repeat   : no-repeat;
     padding-left: 25px;
 }
+
 
 #client-wrapper:before {
     border-left-color : #ffe175;
@@ -812,6 +829,21 @@ a, a:hover {
     background-position : -100px 100%, 100% 100px;
     background-repeat   : no-repeat;
 }
+
+#support-wrapper:before {
+    border-left-color : #12ddc6;
+}
+ 
+#support {
+    background          : -webkit-linear-gradient(left, #12ddc6 0%, #10af96 100%), -webkit-linear-gradient(left, #169d98 0%, #00b6a1 100%);
+    background          : -moz-linear-gradient(left, #12ddc6 0%, #10af96 100%), -moz-linear-gradient(left, #169d98 0%, #00b6a1 100%);
+    background          : -o-linear-gradient(left, #12ddc6 0%, #10af96 100%), -o-linear-gradient(left, #169d98 0%, #00b6a1 100%);
+    background          : -ms-linear-gradient(left, #12ddc6 0%, #10af96 100%), -ms-linear-gradient(left, #169d98 0%, #00b6a1 100%);
+    background          : linear-gradient(left, #12ddc6 0%, #10af96 100%), linear-gradient(left, #169d98 0%, #00b6a1 100%); 
+    background-position : -100px 100%, 100% 100px;
+    background-repeat   : no-repeat;
+} 
+
 
 #blog-wrapper:before {
     border-right-color : #576166;
@@ -1137,7 +1169,7 @@ a#to-top {
     text-align       : left;
     color            : #fff;
     position         : relative;
-    background-color : #008a5c;
+    background-color : #e9085a;
     padding          : 5px 10px;
     height           : 70px;
     border           : 4px solid transparent;
@@ -1145,7 +1177,7 @@ a#to-top {
 
 #team-items > li:hover .team-item-description {
     background-color : transparent;
-    border           : 4px solid #008a5c;
+    border           : 4px solid #e9085a;
     z-index          : 10;
 }
 
@@ -1654,6 +1686,13 @@ input[type="submit"]:focus {
     color            : #000000;
 }
 
+#upcomingEventClose {
+    float:right;
+    background: #033d32;
+    color:white;
+    border-radius: 15px;
+}
+
 #upcoming-events-banner{
     width:50%;
     height:90%;
@@ -1664,7 +1703,7 @@ input[type="submit"]:focus {
     left:0;
     right:0;
     top:5%;
-    background-color: black;
+    background-color: #0aa687;
     z-index:9999;
     opacity: 1;
     display: none;

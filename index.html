@@ -44,7 +44,7 @@
                                 <li class="service"><a href="#services-wrapper">News & Events</a></li>
                                 <li class="blog"><a href="#blog-wrapper">Gallery</a></li>
                                 <li class="client"><a href="#client-wrapper">Gurukulam</a></li>
-                                <!-- <li class="support"><a href="#support-wrapper">Support us</a></li> -->
+                                <li class="support"><a href="#support-wrapper">Support us</a></li>
                                 <li class="contact"><a href="#contact-wrapper">Contact us</a></li>
                             </ul>
                         </div>
@@ -59,9 +59,16 @@
             <div class="carousel slide wet-asphalt">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <video id="homeVideo" width="100%" poster="images/home/homeposter.jpeg" autoplay loop controls>
+                        <video id="homeVideo" width="100%" poster="images/home/homeposter.jpeg" autoplay loop muted>
                             <source src="videos/home_banner_video.mp4" type="video/mp4">
                         </video>
+                        <script>
+                            document.getElementsByTagName("body")[0].onclick = () => {
+                                const video = document.getElementById("homeVideo");
+                                video.muted = false;
+                                video.play();
+                            };
+                        </script>
                         <div id="video_pattern"></div>
                         <div class="container">
                             <div class="row">
@@ -117,198 +124,74 @@
 
                                 <div class="row contents">
                                     <div class="col-md-12">
-                                        <p> Kanchana Shree Lakshminarayana Music Academy trust® is a non-profit trust,
-                                            dedicated to the propagation and promotion of Indian classical music and has
-                                            strived selflessly towards this cause for nearly 100 years.
-                                            We are today a well recognized and reputed trust in Bangalore and have been
-                                            actively hosting many important music/cultural events in southern parts of
-                                            India.
+                                        <p> Kanchana Shree Lakshminarayana Music Academy Trust® <br />
+                                            (A Non-Profit Organization Dedicated to Karnataka Music)
+                                        </p>
+                                        <p>
+                                            Kanchana Shree Lakshminarayana Music Academy Trust® is a non-profit institution devoted to the propagation
+                                            and promotion of Karnataka (Carnatic) music.
+                                            For nearly a century, the Trust has selflessly nurtured this divine art form, preserving its rich traditions
+                                            while inspiring new generations of musicians.
+                                        </p>
+                                        <p>
+                                            Recognized and respected in Bengaluru as well as its native town Kanchana, the Academy is deeply passionate
+                                            about
+                                            teaching Carnatic music and organizing cultural initiatives such as Kanchanotsava and Gurukula Workshops.
+                                            These events foster enthusiasm, creativity, and a deep love for learning among students.
+                                        </p>
+                                        <p>
+                                            Embracing the best of both tradition and technology, the Academy has also launched Kanchana Online Music
+                                            Classes,
+                                            enabling learners across the world to access high-quality, traditional music education from the comfort of
+                                            their
+                                            homes.
+                                        </p>
+                                        <p>
+                                        <h3>
+                                            <strong>
+                                                Leadership Team
+                                            </strong>
+                                        </h3>
+                                        <div>
+                                            Kanchana Music Academy Trust is currently led by
+                                        </div>
+                                        <ul type="disc" style="list-style:disc !important;padding:25px;">
+                                            <li>Smt. Rohini Subbarathnam (wife of Late Shri Kanchana Subbarathnam)
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.facebook.com/profile.php?id=100009200486783">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>K.U.Jayachandra Rao
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.facebook.com/kuluruliya.jayachandrarao">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.instagram.com/jaykuloor/">
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>Kanchana Sisters - Shriranjani and Shruthiranjani (daughters of Late Shri Kanchana Subbarathnam)
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.facebook.com/kanchana.shriranjani">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.instagram.com/shriranjanikanchana/">
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.facebook.com/ShruthiRanjini">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                                <a style="padding:10px;color:#4fe309" target="_blank" href="https://www.instagram.com/shruthikanchana/">
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            Upholding decades of tradition and dedication to students, the trust continues to provide rigorous training
+                                            in
+                                            Karnataka sangeetha
+                                            music including Vocal, Mridangam, Violin, Konnakol, and Tabla
                                         </p>
                                     </div>
                                     <div class="col-md-12">
-                                        <div>
-                                            <button class="aboutUsAccordion aboutUsAcco">Our Recurring Events</button>
-                                            <div class="accordionPanel">
-                                                <ul type="disc">
-                                                    <li>
-                                                        "Kanchanothsava" - is recognized today as one of the top musical
-                                                        events in Bangalore and in whole of Karnataka. World famed
-                                                        artists, connoisseurs, dignitaries, audiences attend the event
-                                                        in great numbers. It is celebrated yearly twice, once in
-                                                        Kanchana (Dakshina kannada district) and once in Bangalore.
-                                                    </li>
-                                                    <li>
-                                                        Our recurring bi-monthly chamber concerts have created immense
-                                                        growth opportunities for budding musicians and have been very
-                                                        well received.
-                                                    </li>
-                                                    <li>
-                                                        Yearly recurring "Guru Samsmarana" – in reverence and
-                                                        remembrance of great Music/Art Gurus has been highly appreciated
-                                                        and attended due to unique artist combinations involved.
-                                                    </li>
-                                                    <li>
-                                                        We regularly conduct long running workshops related to classical
-                                                        music, studies and researches about classical music in different
-                                                        art forms in various parts of southern India.
-                                                    </li>
-                                                </ul>
-                                                <p>
-                                                    Besides the recurring events, our trust has often brought out week
-                                                    long cultural events staging many facets of art such as – dance,
-                                                    drama, canvas painting, sand painting, literature avadhana,
-                                                    yakshagana, kaavya-vaachana etc.
-                                                </p>
-                                                <br>
-                                                <h3>
-                                                    Along with a wide range of events, our trust has always continuously
-                                                    worked on the below:
-                                                </h3>
-                                                <br>
-                                                <ul>
-                                                    <li>Carnatic music education on vocal, violin, mridangam and flute.
-                                                    </li>
-                                                    <li>Indian classical music theory classes.</li>
-                                                    <li>Musician career planning for students.</li>
-                                                    <li>Promoting music education among backward classes and rural
-                                                        population.</li>
-                                                    <li>Organizing seminars from great scholars on various art themes.
-                                                    </li>
-                                                    <li>Conferring awards to achievers in various fields of art - i.e
-                                                        music, musicology, dance, drama, yakshagana, painting,
-                                                        sculpture, social service, folk arts etc.</li>
-                                                </ul>
-                                            </div>
-
-                                            <button class="aboutUsAccordion aboutUsAcco">Our Origin and
-                                                Evolution</button>
-                                            <div class="accordionPanel">
-                                                <p> Kanchana SLN Music Academy trust has a history of nearly 100 years
-                                                    and is the oldest organization for music to originate in Dakshina
-                                                    Kannada district of Karnataka.<br><br>
-                                                    In the early 1930s, a Veena artist and Leg harmonium player named
-                                                    Smt. Kanchana Anandalakshmi Ammal started a music institute – Sree
-                                                    Lakshminarayana school of music and Arts in Mangalore, Karnataka.
-                                                    The institution brought forth astounding performances and special
-                                                    trainings by the all time legends - Chembai Vaidyanatha Bhagavathar,
-                                                    G N Balasubramaniam, Chakrakodi Narayana Shastri and such others
-                                                    benefitting hundreds of people. Later in 1940s, the institution
-                                                    functioned in Chennai and was blessed by the guidance, teachings and
-                                                    performances of great luminaries such as Piteelu Chowdaiyyah,
-                                                    Chembai Vaidyanatha Bhagavathar etc.<br><br>
-                                                    The first disciple of this institute – Anandalakshmi Ammal's son –
-                                                    Kanchana Venkatasubramaniam, an incredible vocalist and composer,
-                                                    was led and inspired by his mother's services and then dedicated his
-                                                    life to propagate music in not just cities but mainly in rural
-                                                    villages. Among his many land ownerships, he chose the remotest
-                                                    village called Bajathur in Dakshina Kannada District, Karnataka to
-                                                    build a music school facility. During 1950s he transformed the
-                                                    institute into a Gurukul system music school that provided free
-                                                    music lessons, free accommodation, free food, clothing, medicine and
-                                                    basic amenities. Trainings were provided on vocal, violin, flute,
-                                                    mridangam, ghata, nagaswara and veena. During those years, this
-                                                    gurukul housed more than 150 music pupils (from many parts of south
-                                                    India) who were learning, graduating under its excellent curriculum.
-                                                    People of all religions, castes and genders were always treated
-                                                    equally and accepted equally in the institute. Many disciples of
-                                                    this institute are now well known artists and teachers.<br><br>
-                                                    Under the guidance of Kanchana Venkatasubramaniam and his son
-                                                    Kanchana Subbarathnam (great violinist, composer, vocalist, polymath
-                                                    and teacher) the institute not only spread classical music, but also
-                                                    worked strenuously towards betterment of music rendition in local
-                                                    folk arts such as Yakshagana Bhagavathike, Taala Maddale etc.
-                                                    Separate music training was given to Yakshagana singers and
-                                                    well-known Yakshagana artists such as Damodara Mandechcha.This
-                                                    marked the onset of a new classical era itself in Yakshagana
-                                                    Bhagavathike. The institution was ever active with monthly stage
-                                                    practice concerts for students, annual day celebrations of many
-                                                    prominent Carnatic music composers (Thyagaraja, Dikshitar, Shyama
-                                                    shastri, Purandara dasa etc.) and several frequent music projects
-                                                    involving great music legends.<br><br>
-                                                    The trust founders also opened free general education primary and
-                                                    high schools for the benefit of gurukul pupils and surrounding
-                                                    villagers.<br><br>
-                                                    In 1954, the institution was registered and recognized by the
-                                                    government. The institution's growth and its founders' relentless
-                                                    efforts towards holistic development brought electricity, telephone,
-                                                    post office, government bus transportation and tar road etc to the
-                                                    then forest like remote village - Bajathur. The village soon got
-                                                    identified with the name 'Kanchana' and was appreciated by legends
-                                                    like Chembai Vaidyanatha Bhagavathar, Violin T Chowdiah, Prof P.
-                                                    Sambamoorthi and such others as <b>"Thiruvayyur of Karnataka"</b>.
-                                                </p>
-                                            </div>
-
-                                            <button class="aboutUsAccordion aboutUsAcco">Founders</button>
-                                            <div class="accordionPanel aboutFounders">
-                                                <div class="row">
-                                                    <div class="col-md-3 facultyImage">
-                                                        <div style="font-weight: bold">Vid. Kanchana Anandalakshmi Ammal
-                                                            (1898-1964)</div>
-                                                        <img src="images/Founders/founder1.png"
-                                                            title="Smt. Kanchana Anandalakshmi Ammal"
-                                                            style="width:200px">
-                                                    </div>
-                                                    <div class="col-md-9 facultyDescription">
-                                                        She was the mother of Kanchana Venkatasubramaniam and was a
-                                                        Veena artist and leg harmonium player. She was also a
-                                                        composer and lyricist. She was a disciple of sri Palakkad
-                                                        Subbayyar. She had organized several special music training
-                                                        sessions by legends such as GNB, Chowdiah and such others for
-                                                        the benefit of public. Her husband Kanchana Venkataramannaiya
-                                                        was an art patron who built and renovated many temples single
-                                                        handedly and had made many generous donations towards art and
-                                                        social development.
-                                                    </div>
-                                                </div><br>
-                                                <div class="row">
-                                                    <div class="col-md-3 facultyImage">
-                                                        <div style="font-weight: bold">"Sangeetha Rathna" Kanchana
-                                                            Venkatasubramaniam (1921-1982)</div>
-                                                        <img src="images/Founders/founder2.png"
-                                                            title="Kanchana Venkata Subrahmaniam " style="width:200px">
-                                                    </div>
-                                                    <div class="col-md-9 facultyDescription">
-                                                        He was the father of Kanchana Subbarathnam and was a very
-                                                        renowned vocalist. He was a disciple of GNB,
-                                                        Chembai and Chakrakodi Narayana Shastri. His social services
-                                                        were incredible in rural areas and he had renovated many temples
-                                                        in his administration. He had built a gurukula music school with
-                                                        free music classes, free shelter, free food and all basic
-                                                        amenities. He also built a free primary general education school
-                                                        and worked on many facets of social reforms and development. He
-                                                        reformed and incorporated classical raagas in to Yakshagana
-                                                        music. Several students who got trained under him, have gone
-                                                        onto become stalwart musicians. He was famous for GNB style of
-                                                        singing.
-                                                    </div>
-                                                </div><br>
-                                                <div class="row">
-                                                    <div class="col-md-3 facultyImage">
-                                                        <div style="font-weight: bold"> "Karnataka Kalashree" Kanchana
-                                                            V. Subbarathnam (1948-2005)</div>
-                                                        <img src="images/Founders/founder3.png"
-                                                            title="Kanchana V. Subbarathnam" style="width:200px">
-                                                    </div>
-                                                    <div class="col-md-9 facultyDescription">
-                                                        He was a self learnt violin legend who accompanied music demi
-                                                        gods such as Chembai Vaidyanatha Bhagavathar at a
-                                                        tender age of 9 years!! He was an 'A' grade violinist, a
-                                                        composer and a vocalist, who accompanied nearly every legendary
-                                                        musician of his time such as N Ramani, KVN, Balamuralikrishna, S
-                                                        Kalyanaraman, Chembai Vaidyanatha Bhagavathar and many others.
-                                                        At the tender age of 14, he accompanied the then living legend
-                                                        Maharajapuram Vishwanatha Iyer. He won many awards and accolades
-                                                        such as 'Outstanding young musician award' - twice from Madras
-                                                        music academy, 'Karnataka Kalashree' from Karnataka state govt
-                                                        and many more. He had also performed in Doordarshan, AIR several
-                                                        times. He had built a free general education high school and
-                                                        worked on many social/rural developmental activities.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br>
                                         <div class="connect">
                                             <h3>Connect with us</h3>
                                             <div class="social-shares">
@@ -2583,7 +2466,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div id="support-wrapper">
+            <div id="support-wrapper">
                 <div id="support">
                     <div class="inner-wrapper">
                         <div class="row">
@@ -2654,7 +2537,7 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <!-- Contact
     ================================================== -->
 

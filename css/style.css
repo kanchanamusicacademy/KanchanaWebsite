@@ -783,7 +783,7 @@ a, a:hover {
 }
 
 #aboutus-wrapper:before {
-    border-left-color : #5f7285;
+    border-left-color : #2f68a0;
 }
 
 #aboutus {
@@ -830,16 +830,20 @@ a, a:hover {
     background-repeat   : no-repeat;
 }
 
+#support-wrapper {
+    background          : #15cfb2 ;
+}
+
 #support-wrapper:before {
     border-left-color : #12ddc6;
 }
  
 #support {
-    background          : -webkit-linear-gradient(left, #12ddc6 0%, #10af96 100%), -webkit-linear-gradient(left, #169d98 0%, #00b6a1 100%);
-    background          : -moz-linear-gradient(left, #12ddc6 0%, #10af96 100%), -moz-linear-gradient(left, #169d98 0%, #00b6a1 100%);
-    background          : -o-linear-gradient(left, #12ddc6 0%, #10af96 100%), -o-linear-gradient(left, #169d98 0%, #00b6a1 100%);
-    background          : -ms-linear-gradient(left, #12ddc6 0%, #10af96 100%), -ms-linear-gradient(left, #169d98 0%, #00b6a1 100%);
-    background          : linear-gradient(left, #12ddc6 0%, #10af96 100%), linear-gradient(left, #169d98 0%, #00b6a1 100%); 
+    background          : -webkit-linear-gradient(left, #12ddc6 0%, #10af96 100%), -webkit-linear-gradient(left, #169d98 0%, #02b79a 100%);
+    background          : -moz-linear-gradient(left, #12ddc6 0%, #10af96 100%), -moz-linear-gradient(left, #169d98 0%, #02b79a 100%);
+    background          : -o-linear-gradient(left, #12ddc6 0%, #10af96 100%), -o-linear-gradient(left, #169d98 0%, #02b79a 100%);
+    background          : -ms-linear-gradient(left, #12ddc6 0%, #10af96 100%), -ms-linear-gradient(left, #169d98 0%, #02b79a 100%);
+    background          : linear-gradient(left, #12ddc6 0%, #10af96 100%), linear-gradient(left, #169d98 0%, #02b79a 100%); 
     background-position : -100px 100%, 100% 100px;
     background-repeat   : no-repeat;
 } 
@@ -857,6 +861,10 @@ a, a:hover {
     background          : linear-gradient(left, #232829 0%, #232829 100%), linear-gradient(left, #232829 0%, #232829 100%); /* Chrome10+,Safari5.1+ */
     background-position : 100px 100%, 100% 100px;
     background-repeat   : no-repeat;
+}
+
+#contact-wrapper {
+    background: #fffefe;
 }
 
 #contact-wrapper:before {
